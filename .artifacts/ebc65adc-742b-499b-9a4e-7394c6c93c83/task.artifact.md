@@ -1,0 +1,4 @@
+- `[x]` Fix InflateException in MainActivity
+    - `[x]` Modify `themes.xml` to remove problematic global attributes
+    - `[x]` Update `activity_main.xml` to use `app:fontFamily` and sanitize attributes
+- `[x]` Verify build and deployment

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_comu_card"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <TextView
+        android:id="@+id/tvLogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obstacle Detected"
+        android:textColor="@color/comu_text"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLogDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance: 50 cm"
+        android:textColor="@color/comu_warning"
+        android:textSize="17sp"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/tvLogTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today, 10:30 AM"
+        android:textColor="@color/comu_text_muted"
+        android:textSize="15sp"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/tvLogLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS: No signal"
+        android:textColor="@color/comu_text_muted"
+        android:textSize="13sp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace" />
+
+</LinearLayout>

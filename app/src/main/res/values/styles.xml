@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="ComuCane.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/btn_primary_text</item>
+        <item name="backgroundTint">@color/btn_primary_bg</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="ComuCane.Button.Stop" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/btn_stop_text</item>
+        <item name="backgroundTint">@color/btn_stop_bg</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="ComuCane.Button.Emergency" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/btn_emergency_text</item>
+        <item name="backgroundTint">@color/btn_emergency_bg</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+</resources>

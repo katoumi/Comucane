@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_rehaul_gradient"
+    android:orientation="vertical">
+
+    <!-- Header Section (Fixed at top) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="ComuCane"
+            android:textColor="@color/brand_text_on_dark"
+            android:textSize="36sp"
+            android:letterSpacing="0.08"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textColor="@color/brand_text_on_dark"
+            android:alpha="0.8"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp"
+            android:paddingBottom="24dp">
+
+            <!-- Section 1: Voice Assistant -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Voice Assistant"
+                android:textColor="@color/brand_text_on_dark"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rehaul_container"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <RadioGroup
+                    android:id="@+id/rgLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbEnglish"
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:buttonTint="@color/brand_primary"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="English language"
+                        android:textColor="@color/brand_text_on_card"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#15000000"
+                        android:layout_marginHorizontal="16dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbTagalog"
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:buttonTint="@color/brand_primary"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="Tagalog (Filipino)"
+                        android:textColor="@color/brand_text_on_card"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <!-- Section 2: Alert Type -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="12dp"
+                android:text="Alert Type"
+                android:textColor="@color/brand_text_on_dark"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rehaul_container"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Enable voice alerts"
+                        android:textColor="@color/brand_text_on_card"
+                        android:textSize="16sp" />
+                    <CheckBox
+                        android:id="@+id/cbVoiceAlert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/brand_primary" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#15000000"
+                    android:layout_marginHorizontal="16dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Enable vibration alerts"
+                        android:textColor="@color/brand_text_on_card"
+                        android:textSize="16sp" />
+                    <CheckBox
+                        android:id="@+id/cbVibrationAlert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/brand_primary" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Section 3: Emergency Contact -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="12dp"
+                android:text="Emergency Contact"
+                android:textColor="@color/brand_text_on_dark"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rehaul_container"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact name"
+                    android:textColor="@color/brand_text_on_card"
+                    android:textSize="12sp"
+                    android:alpha="0.7" />
+
+                <EditText
+                    android:id="@+id/etEmergencyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_rehaul_button"
+                    android:backgroundTint="#10000000"
+                    android:hint="Juan Dela Cruz"
+                    android:inputType="textPersonName"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:textColor="@color/brand_text_on_card"
+                    android:textColorHint="#60000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Phone number"
+                    android:textColor="@color/brand_text_on_card"
+                    android:textSize="12sp"
+                    android:alpha="0.7" />
+
+                <EditText
+                    android:id="@+id/etEmergencyPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_rehaul_button"
+                    android:backgroundTint="#10000000"
+                    android:hint="09171234567"
+                    android:inputType="phone"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:textColor="@color/brand_text_on_card"
+                    android:textColorHint="#60000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSaveSettings"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_rehaul_button"
+                android:text="Save Changes"
+                android:textColor="@color/brand_text_on_dark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="ComuCane v1.0"
+                android:textColor="@color/brand_text_on_dark"
+                android:alpha="0.5"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fixed Bottom Bar -->
+    <include
+        android:id="@+id/voiceBottomBar"
+        layout="@layout/layout_hold_speak_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

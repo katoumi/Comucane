@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ComuCane" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brand_warning</item>
+        <item name="colorSecondaryVariant">@color/brand_background</item>
+        <item name="colorOnSecondary">@color/brand_text_on_card</item>
+
+        <!-- Typography: Premium High Legibility -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+
+        <!-- Status bar and Navigation bar -->
+        <item name="android:statusBarColor">@color/comu_bg_deep</item>
+        <item name="android:navigationBarColor">@color/comu_bg_deep</item>
+    </style>
+
+    <style name="TextAppearance.ComuCane.Title" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">@color/brand_text_on_dark</item>
+    </style>
+
+    <style name="TextAppearance.ComuCane.CardTitle" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">@color/brand_text_on_card</item>
+    </style>
+</resources>

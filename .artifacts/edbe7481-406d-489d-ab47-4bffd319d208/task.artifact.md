@@ -1,0 +1,3 @@
+- `[x]` Update `NavigationActivity.kt` to use Google Maps tile source
+- `[x]` Verify build
+- `[x]` Create walkthrough

@@ -1,0 +1,35 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# --- Security & GitHub Readiness ---
+# Keystore files
+*.jks
+*.keystore
+keystore.properties
+
+# Google Services & Firebase (if added later)
+google-services.json
+GoogleService-Info.plist
+
+# Compiled outputs
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Log Files
+*.log

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ComuCane" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brand_warning</item>
+        <item name="colorSecondaryVariant">@color/brand_background</item>
+        <item name="colorOnSecondary">@color/brand_text_on_card</item>
+
+        <!-- Typography: Premium High Legibility -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+
+        <!-- Status bar and Navigation bar -->
+        <item name="android:statusBarColor">@color/comu_bg_deep</item>
+        <item name="android:navigationBarColor">@color/comu_bg_deep</item>
+    </style>
+</resources>

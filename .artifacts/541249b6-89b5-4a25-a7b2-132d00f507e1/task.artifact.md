@@ -1,0 +1,3 @@
+- `[x]` Harden `.gitignore` with Android security rules
+- `[x]` Verify build
+- `[x]` Create walkthrough with GitHub upload instructions

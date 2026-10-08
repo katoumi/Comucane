@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ComuCane</string>
+    <string name="app_title">ComuCane</string>
+    <string name="ready_to_guide">Ready to guide</string>
+    <string name="active_features">Active Features</string>
+    <string name="feature_voice">Voice</string>
+    <string name="feature_vibration">Vibration</string>
+    <string name="feature_gps">GPS</string>
+    <string name="connect_device_btn">Connect Device</string>
+    <string name="obstacle_logs_btn">Obstacle Logs</string>
+
+    <!-- Device Activity -->
+    <string name="available_devices">Available Devices</string>
+    <string name="scanning_status">Scanning for nearby devices&#8230;</string>
+    <string name="scanning_status_tl">Naghahanap ng mga kalapit na aparato&#8230;</string>
+    <string name="scan_for_devices">Scan for Devices</string>
+    <string name="scan_for_devices_tl">I-scan ang mga Aparato</string>
+    <string name="stop_scanning">Stop Scanning</string>
+    <string name="stop_scanning_tl">Ihinto ang Pag-scan</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnect_tl">Idiskonekta</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="device_active">ComuCane-001 is active and ready.</string>
+    <string name="ready_to_scan">Ready to search for nearby devices.</string>
+    <string name="ready_to_scan_tl">Handa nang maghanap ng aparato.</string>
+    <string name="device_ready">Ready</string>
+    <string name="device_found">Found</string>
+
+    <!-- Logs Activity -->
+    <string name="obstacle_logs">Obstacle logs</string>
+    <string name="stop">Stop</string>
+    <string name="caution">Caution</string>
+    <string name="clear">Clear</string>
+    <string name="total">Total</string>
+    <string name="detected_obstacles">Detected Obstacles</string>
+
+    <!-- Settings Activity -->
+    <string name="settings">Settings</string>
+    <string name="configure_preferences">Configure your preferences</string>
+    <string name="voice_assistant">Voice Assistant</string>
+    <string name="english_language">English language</string>
+    <string name="tagalog_language">Tagalog (Filipino)</string>
+    <string name="alert_notifications">Alert Notifications</string>
+    <string name="enable_voice_alerts">Enable voice alerts</string>
+    <string name="enable_vibration_alerts">Enable vibration alerts</string>
+    <string name="emergency_contact_header">Emergency Contact</string>
+    <string name="contact_name">Contact name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="app_version">ComuCane v1.0</string>
+
+    <!-- Navigation Activity -->
+    <string name="navigating">Navigating</string>
+    <string name="sensors_active">Sensors active</string>
+    <string name="live_assist">Live Assist</string>
+    <string name="path_safe">Path ahead is safe</string>
+    <string name="distance_cm">%1$d cm ahead</string>
+    <string name="repeat">Repeat</string>
+    <string name="battery_status">Battery: %1$d%%</string>
+    <string name="gps_status_active">GPS: Active</string>
+
+    <!-- Emergency Activity -->
+    <string name="emergency">Emergency</string>
+    <string name="help_on_the_way">Help is on the way</string>
+    <string name="sos">SOS</string>
+    <string name="calling_in">Calling in %1$d&#8230;</string>
+    <string name="calling_in_tl">Tatawag sa loob ng %1$d&#8230;</string>
+    <string name="calling_now">Calling now&#8230;</string>
+    <string name="calling_now_tl">Tumatawag ngayon&#8230;</string>
+    <string name="loading_contact">Loading contact&#8230;</string>
+    <string name="gps_acquiring">GPS: Acquiring location&#8230;</string>
+    <string name="call_now">Call Now</string>
+    <string name="bluetooth_gps_status">%1$s | %2$s</string>
+
+    <!-- Voice Bar -->
+    <string name="hold_to_speak">Hold to speak</string>
+    <string name="try_saying_navigate">Try saying \"Navigate to park\"</string>
+
+    <!-- Screen Reader Phrases -->
+    <string name="read_home_en">Home screen. Commands: navigation, device, logs, settings, or emergency. Say Hey Cane to start.</string>
+    <string name="read_home_tl">Home screen. Mga utos: navigation, device, logs, settings, o emergency. Sabihin ang Hey Cane para magsimula.</string>
+</resources>
