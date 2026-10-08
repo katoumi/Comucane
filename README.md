@@ -64,8 +64,15 @@ Upon first launch, ComuCane will request the following permissions:
 
 ## License
 
-MIT License
 
 Copyright (c) 2026 Comucane (Mhiko).
 
-See the [LICENSE](LICENSE) file for details.
+This repository and its contents are the intellectual property of eMoodtune (Mhiko). This code is provided publicly for portfolio, demonstration, and educational evaluation purposes only.
+
+You may NOT:
+
+Copy, reproduce, or distribute this code.
+Publish, display, or perform this code.
+Modify or create derivative works from this code.
+Sell, offer for sale, or monetize any part of this software.
+Deploy or operate this software for public or commercial use.
